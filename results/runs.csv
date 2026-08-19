@@ -1,0 +1,4 @@
+run_id,arm,hidden_size,num_layers,dropout,bidirectional,lr,batch_size,epochs,seed,augmentation,best_val_CER,final_test_CER,artifact,evidence
+gru_h256_l3_aug,GRU,256,3,0.1,True,0.001,32,50,1501,on,17.966327667236328,18.543333053588867,runs/gru_h256_l3_aug/summary.json,hydra overrides.yaml has no transforms= override -> default log_spectrogram (augmented)
+gru_noaug_h256_l3,GRU,256,3,0.1,True,0.001,32,50,1501,off,14.975631713867188,16.295656204223633,notebooks/emg2qwerty_GRU.ipynb,cell passes transforms=log_spectrogram_noaug; summary dict printed in notebook output
+gru_noaug_h512_l2,GRU-RAU,512,2,0.1,True,0.001,32,50,1501,off,15.618077278137209,19.213314056396484,notebooks/emg2qwerty_GRU-RAU.ipynb,cell passes transforms=log_spectrogram_noaug; summary dict printed in notebook output
