@@ -1,0 +1,18 @@
+{
+  "run_name": "gru_h256_l3_d01_bi_lr1em03_b32_e50",
+  "run_dir": "/content/drive/MyDrive/C247A/C247A-Final_Project/outputs-GRU/2026-03-07_22-51-59_gru_h256_l3_d01_bi_lr1em03_b32_e50",
+  "model_target": "emg2qwerty.lightning.GRUCTCModule",
+  "in_features": 528,
+  "mlp_features": [
+    384
+  ],
+  "hidden_size": 256,
+  "num_layers": 3,
+  "dropout": 0.1,
+  "bidirectional": true,
+  "batch_size": 32,
+  "lr": 0.001,
+  "max_epochs": 50,
+  "best_val_CER": 17.966327667236328,
+  "final_test_CER": 18.543333053588867
+}

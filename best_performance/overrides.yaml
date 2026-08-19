@@ -1,0 +1,10 @@
+- user=single_user
+- trainer.accelerator=gpu
+- trainer.devices=1
+- trainer.max_epochs=50
+- model.hidden_size=256
+- model.num_layers=3
+- model.dropout=0.1
+- model.bidirectional=True
+- optimizer.lr=0.001
+- batch_size=32
