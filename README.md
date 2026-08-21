@@ -6,6 +6,8 @@ dataset. This repository holds my two architecture arms from a four-person UCLA
 ECE C247A final project: a **bidirectional GRU encoder** and a **GRU with a
 temporal attention block** (RAU-inspired).
 
+**Best test CER 16.30 (val 14.98)** — bidirectional GRU, 50 epochs, greedy CTC decoding, no language model, single-participant split.
+
 Every number below traces to a file in this repository. Numbers that appeared in
 the course report but whose run artifacts were not kept are **not** reported here —
 see [Relationship to the course report](#relationship-to-the-course-report).
